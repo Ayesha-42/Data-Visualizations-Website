@@ -1,0 +1,58 @@
+/* This is the styling file responsible for the presentation of the webpage hosting the visualization
+					as well as the elements in the charts itself.		*/
+  
+  
+
+footer{color:white; background-color: DarkGrey; margin-top: 20px; left:0; bottom:0; width=50%; text-align:center;}
+
+button{
+	background-color:rgb(94, 189, 214);
+	border: 1px solid Green;
+	margin-right:20px;
+	color:White;
+	padding: 10px 20px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:20px;
+	border-radius:8px;
+}
+#t1{background-color:MediumSeaGreen;margin-left:400px;}
+#t2{background-color:rgb(255, 48, 71);
+margin-left:50px;}
+#t3{background-color:mediumvioletred;margin-left:50px;}
+
+text{font-size:14px;font-family:monospace;}
+
+button:hover{box-shadow: 0 5px 10px 0 rgba(0,0,0,0.20),0 12px 20px 0 rgba(0,0,0,0.10);}
+
+#axis path, #axis line {
+						stroke: Purple;
+						shape-rendering: crispEdges;
+}
+
+#axis text{
+	font-family: Otima, Futura, sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+	fill:teal;
+}
+.yaxis path, .yaxis line {
+						stroke: Purple;
+						shape-rendering: crispEdges;
+}
+
+.yaxis text{
+	font-family: Otima, Futura, sans-serif;
+	font-weight:bold;
+	font-size: 10px;
+	fill:teal;
+}
+text { fill : DarkPurple;}
+
+.arc path {
+            stroke: #fff;
+			stroke-width:10px;
+        }
+ .line{fill:none;
+ stroke-width:1.5px;}

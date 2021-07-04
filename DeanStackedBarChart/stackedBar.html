@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="description" content="Data Visualization: COS30045">
+<meta name="description" content="Team: techCreate">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Dean Broderick: 101198223">
+<title> Sustainability: Waste | TechCreate Website</title>
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+<script type="text/javascript" src="d3.js"></script>
+<script type="text/javascript" src="stackedbar.js"></script>
+<link rel="stylesheet" href="mystyle.css">
+
+<!-- NOTE: The style-sheet "mystyle.css" is breaking up the formatting -->
+
+<style type="text/css">
+  rect:hover {
+    fill: yellow; 
+  }
+
+</style>
+
+<body>
+
+<h2 span style="text-shadow:1px 1.5px 1.6px #2F4F4F;">Waste Generation by Waste Material: Million Tonnes</h2>
+
+<!-- Create a div where the graph will take place -->
+
+<div id="chart"></div>
+
+<div class="myDiv">
+<ul class="legend">
+  <li><span class="MasonryMaterials"></span>Masonry Material</li>
+  <li><span class="Metals"></span>Metals</li>
+  <li><span class="Organics"></span>Organics</li>
+  <li><span class="PaperCardboard"></span>Paper&Cardboard</li>
+  <li><span class="Plastics"></span>Plastics</li>
+  <li><span class="Glass"></span>Glass</li>
+  <li><span class="TextilesLeatherRubber"></span>Textiles-Leather-Rubber</li>
+  <li><span class="HazardousWaste"></span>Hazardous Waste</li>
+  <li><span class="AshCoalFiredPwr"></span>Ash from Coal-Fired-Pwr</li>
+</ul>
+</div>
+<br/><br/>
+
+<a href="../LandingPage/Landing2.html" style="margin-left: 590px;">Home
+</a> &nbsp; &nbsp;
+<a href="../InteractiveTreeMap/mytree.html">Node-Link-Chart</a> &nbsp;
+<a href="../AyeshaRadialChart/dv2.html">Radial-Line-Chart</a>
+
+<footer>
+      <p>COS30045 Data Visualization
+      <a href="mailto:101198223@student.swin.edu.au">Team techCreate:&nbsp;101198223@student.swin.edu.au</a>
+      </p>
+</footer>
+
+</body>
+</html>
